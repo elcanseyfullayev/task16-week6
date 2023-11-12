@@ -1,0 +1,84 @@
+@import "./base/reset";
+
+body {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.table {
+    border: 1px solid white;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 24px;
+    }
+    .id {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 200px;
+    }
+    .photo {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 240px;
+        padding: 50px;
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+    .name {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 270px;
+    }
+    .job {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 240px;
+    }
+    .update {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 220px;
+    }
+    .delete {
+        border: 1px solid white;
+        min-height: 50px;
+        width: 220px;
+    }
+}

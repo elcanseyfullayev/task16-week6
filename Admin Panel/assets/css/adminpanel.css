@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: #000000;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background: #AA076B;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #61045F, #AA076B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.table {
+  border: 1px solid white;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.table div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+.table .id {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 200px;
+}
+.table .photo {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 240px;
+  padding: 50px;
+}
+.table .photo img {
+  height: 150px;
+  width: 150px;
+}
+.table .name {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 270px;
+}
+.table .job {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 240px;
+}
+.table .update {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 220px;
+}
+.table .delete {
+  border: 1px solid white;
+  min-height: 50px;
+  width: 220px;
+}/*# sourceMappingURL=adminpanel.css.map */
